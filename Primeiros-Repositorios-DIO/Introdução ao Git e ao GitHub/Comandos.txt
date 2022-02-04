@@ -1,0 +1,24 @@
+# Anotaçoes de Comandos do Git Bash Joao Vitor #
+
+- git clone + url (https, ssh) = clonar repositório na maquina local
+- cd = entrar no repositório
+- git status = verificar status do arquivo
+- git add -A ou git add . = 
+- git commit -m "mensagem de propria escolha" = comitar arquivo para ser enviado ao GitHubgi
+- git push origin main = enviar para o GitHubgiot
+
+# Anotaçoes do Site GitHub#
+
+-- Or create a new repository on the command line
+	echo "nome do arquivo" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin git@github.com:mjoaovitor/nome do respositorio criado.git
+	git push -u origin main
+
+-- Or push an existing repository from the command line
+	git remote add origin git@github.com:mjoaovitor/nome do repositorio criado.git
+	git branch -M main
+	git push -u origin main
